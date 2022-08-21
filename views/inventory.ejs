@@ -1,0 +1,30 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <table border="1px solid black">
+            <tr>
+                <th>Inventory_id</th>
+                <th>Inventory_type</th>
+                <th>Itemname</th>
+                <th>Qunantity</th>
+            </tr>
+               
+            <% for(let i=0;i<7;i++) {%>
+                <tr>
+                    <td><%= all[0][i].inventory_id%></td>
+                    <td><%= all[0][i].inventory_type%></td>
+                    <td><%= all[0][i].itemname%></td>
+                    <td><%= all[0][i].quantity%></td>
+                 </tr>  
+            <% } %>
+          
+               
+
+
+
+    
+        </table>
+       
+    </body>
+</html>
